@@ -1,0 +1,35 @@
+/*#CSS: Custom Widgets */
+.inweb-recent-posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.inweb-recent-post-thumbnail {
+    display: block;
+}
+
+.inweb-recent-post-thumbnail img {
+    min-width: 100px;
+    width: 100px;
+    height: 100%;
+}
+
+.inweb-entry-summary {
+    margin-left: 20px;
+    display: block;
+}
+
+.inweb-recent-title-post {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: -5px;
+    color: #000;
+}
+
+.inweb-recent-title-post:hover {
+    color: #B9D856;
+    text-decoration: none;
+}
